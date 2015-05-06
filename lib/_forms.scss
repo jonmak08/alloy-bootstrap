@@ -87,6 +87,7 @@ input[type="color"],
   color: $gray;
   @include border-radius($inputBorderRadius);
   vertical-align: middle;
+  box-sizing: border-box;
 }
 
 // Reset appearance properties for textual inputs and textarea
