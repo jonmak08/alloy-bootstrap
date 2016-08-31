@@ -3909,8 +3909,13 @@ input[type="submit"].btn.btn-mini {
   *padding-top: 1px;
   *padding-bottom: 1px;
 }
+/* line 200, lib/_buttons.scss */
+table button.btn img, table
+input[type="submit"].btn img {
+  max-width: none;
+}
 
-/* line 207, lib/_buttons.scss */
+/* line 212, lib/_buttons.scss */
 .btn-link,
 .btn-link:active,
 .btn-link[disabled] {
@@ -3921,7 +3926,7 @@ input[type="submit"].btn.btn-mini {
   box-shadow: none;
 }
 
-/* line 212, lib/_buttons.scss */
+/* line 217, lib/_buttons.scss */
 .btn-link {
   border-color: transparent;
   cursor: pointer;
@@ -3931,7 +3936,7 @@ input[type="submit"].btn.btn-mini {
   border-radius: 0;
 }
 
-/* line 219, lib/_buttons.scss */
+/* line 224, lib/_buttons.scss */
 .btn-link:hover,
 .btn-link:focus {
   color: #005580;
@@ -3939,7 +3944,7 @@ input[type="submit"].btn.btn-mini {
   background-color: transparent;
 }
 
-/* line 225, lib/_buttons.scss */
+/* line 230, lib/_buttons.scss */
 .btn-link[disabled]:hover,
 .btn-link[disabled]:focus {
   color: #333333;
