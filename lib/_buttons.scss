@@ -195,6 +195,11 @@ input[type="submit"].btn {
     *padding-top: 1px;
     *padding-bottom: 1px;
   }
+
+  //Chrome .btn in tables cells
+  table & img {
+    max-width: none;
+  }
 }
 
 
